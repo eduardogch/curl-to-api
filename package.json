@@ -1,0 +1,22 @@
+{
+  "name": "curl-to-api",
+  "version": "1.0.0",
+  "description": "Node app to convert a curl to API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.homedepot.com/eduardogch/curl-to-api.git"
+  },
+  "author": "Eduardo Gonzalez <eduardo.gch@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "body-parser": "^1.15.2",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
